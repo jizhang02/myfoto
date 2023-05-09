@@ -61,4 +61,4 @@ image_processing:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-exclude: [LICENSE, README.md, Procfile]
+# exclude: [LICENSE, README.md, Procfile]
