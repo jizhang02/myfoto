@@ -56,7 +56,7 @@
       }
       navigator.share(shareData)
     } else {
-      navigator.clipboard.writeText(`I found a cool photo over at {{ site.env.TITLE | smartify }}! Check it out!\n\n${window.location.origin}${url}`);
+      navigator.clipboard.writeText(`Hi! I found a cool photo over at {{ site.env.TITLE | smartify }}! Check it out!\n\n${window.location.origin}${url}`);
       Toastify({
         text: "Copied to clipboard",
         duration: 3000,
