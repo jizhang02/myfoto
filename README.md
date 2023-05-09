@@ -47,6 +47,7 @@ Put your photos (not resized) in the `photos/original` directory. Optionally you
 ## Customize
 ### Basics
 
+
 First thing you want to do is edit a couple of things in `/.env`:
 
 - `TITLE`: The title of your photo stream.
@@ -73,6 +74,8 @@ First thing you want to do is edit a couple of things in `/.env`:
 - `SYNCFOLDER`: The folder on your webserver being used by lftp/rsync in the shell scripts where your site will be synced to.
 
 Don't include the `@`-part of your social handles. Links to your Github, Twitter and Instagram profiles are only shown when set.
+
+The logo is generated from [SVG Favicon Generator](https://realfavicongenerator.net/svg-favicon/)
 
 ### Advanced
 
